@@ -1,0 +1,28 @@
+{
+  "name": "RNLWeChat",
+  "version": "3.0.3",
+  "authors": {
+    "yyyyu": "g592842897@gmail.com"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "homepage": "https://github.com/yyyyu/react-native-wechat",
+  "source": {
+    "git": "https://github.com/yyyyu/react-native-wechat.git",
+    "tag": "v3.0.3"
+  },
+  "summary": "wechat api for react native.",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ios/RNLWeChat*.{h,m}",
+  "dependencies": {
+    "WechatOpenSDK": [
+      "= 1.8.4"
+    ],
+    "React": [
+
+    ]
+  }
+}

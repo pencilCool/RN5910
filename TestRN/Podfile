@@ -1,0 +1,61 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+# https://archive.reactnative.dev/docs/integration-with-existing-apps#configuring-cocoapods-dependencies
+target 'TestRN' do
+   pod 'yoga', :path=> '.././ReactCommon/yoga/'
+   pod 'Folly', :podspec => '../third-party-podspecs/Folly.podspec'
+
+   pod 'React', :path => '../',:subspecs => [
+    'Core',
+    'ART',
+    'CxxBridge', # Include this for RN >= 0.47
+    'DevSupport', # Include this to enable In-App Devmenu if RN >= 0.43
+    'RCTNetwork',
+    'RCTText',
+    'RCTWebSocket', # Needed for debugging
+    'RCTAnimation', # Needed for FlatList and animations running on native UI thread
+    'RCTGeolocation', 
+    'RCTImage',
+    'RCTBlob',
+    'RCTActionSheet',
+    'RCTSettings',
+    'RCTVibration',
+    'RCTPushNotification',
+    'RCTLinkingIOS'
+    ]
+
+ 
+  #  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+   
+
+
+   # pod 'ReactNativePermissions', :path => '../node_modules/react-native-permissions'
+   # pod 'react-native-camera', :path => '../node_modules/react-native-camera'
+   # pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+   # pod 'Picker', :path => '../node_modules/react-native-picker'
+   # pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+   # pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+   # pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
+   # pod 'react-native-idfa', :path => '../node_modules/react-native-idfa'
+   # pod 'RNSVG', :path => '../node_modules/react-native-svg'
+   # pod 'RNImageCropPicker', :path => '../node_modules/react-native-image-crop-picker'
+   # pod 'react-native-amap3d', path: '../node_modules/react-native-amap3d/lib/ios'
+   # pod 'react-native-amap-geolocation', :path => '../node_modules/react-native-amap-geolocation/lib/ios'
+   # pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+   # pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+   # pod 'RNScreens', :path => '../node_modules/react-native-screens'
+   # pod 'Picker', :path => '../node_modules/react-native-picker'
+   # pod 'RNExitApp', :path => '../node_modules/react-native-exit-app'
+   # pod 'JPush', :path => '../node_modules/jpush-react-native'
+   # pod 'JCore', :path => '../node_modules/jcore-react-native'
+   # pod 'RNLWeChat', :path => '../node_modules/@yyyyu/react-native-wechat'
+   #  pod 'react-native-image-resizer', :path => '../node_modules/react-native-image-resizer'
+   # pod 'beacon-react-native',path:'../node_modules/beacon-react-native'
+   # pod 'rn-fetch-blob', :path => '../node_modules/rn-fetch-blob'
+   # pod 'react-native-pdf', :path => '../node_modules/react-native-pdf'
+   # pod 'react-native-video', :path => '../node_modules/react-native-video'
+   # pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+   # pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
+   # pod 'react-native-view-shot', :path => '../node_modules/react-native-view-shot'
+end
+

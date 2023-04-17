@@ -1,0 +1,112 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.5)
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.4)
+  - React/ART (0.59.10):
+    - React/Core
+  - React/Core (0.59.10):
+    - yoga (= 0.59.10.React)
+  - React/CxxBridge (0.59.10):
+    - Folly (= 2018.10.22.00)
+    - React/Core
+    - React/cxxreact
+    - React/jsiexecutor
+  - React/cxxreact (0.59.10):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/jsinspector
+  - React/DevSupport (0.59.10):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.59.10)
+  - React/jsi (0.59.10):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - React/jsiexecutor (0.59.10):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/cxxreact
+    - React/jsi
+  - React/jsinspector (0.59.10)
+  - React/RCTActionSheet (0.59.10):
+    - React/Core
+  - React/RCTAnimation (0.59.10):
+    - React/Core
+  - React/RCTBlob (0.59.10):
+    - React/Core
+  - React/RCTGeolocation (0.59.10):
+    - React/Core
+  - React/RCTImage (0.59.10):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.59.10):
+    - React/Core
+  - React/RCTNetwork (0.59.10):
+    - React/Core
+  - React/RCTPushNotification (0.59.10):
+    - React/Core
+  - React/RCTSettings (0.59.10):
+    - React/Core
+  - React/RCTText (0.59.10):
+    - React/Core
+  - React/RCTVibration (0.59.10):
+    - React/Core
+  - React/RCTWebSocket (0.59.10):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - yoga (0.59.10.React)
+
+DEPENDENCIES:
+  - Folly (from `../third-party-podspecs/Folly.podspec`)
+  - React/ART (from `../`)
+  - React/Core (from `../`)
+  - React/CxxBridge (from `../`)
+  - React/DevSupport (from `../`)
+  - React/RCTActionSheet (from `../`)
+  - React/RCTAnimation (from `../`)
+  - React/RCTBlob (from `../`)
+  - React/RCTGeolocation (from `../`)
+  - React/RCTImage (from `../`)
+  - React/RCTLinkingIOS (from `../`)
+  - React/RCTNetwork (from `../`)
+  - React/RCTPushNotification (from `../`)
+  - React/RCTSettings (from `../`)
+  - React/RCTText (from `../`)
+  - React/RCTVibration (from `../`)
+  - React/RCTWebSocket (from `../`)
+  - yoga (from `.././ReactCommon/yoga/`)
+
+SPEC REPOS:
+  trunk:
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+
+EXTERNAL SOURCES:
+  Folly:
+    :podspec: "../third-party-podspecs/Folly.podspec"
+  React:
+    :path: "../"
+  yoga:
+    :path: ".././ReactCommon/yoga/"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
+  Folly: de497beb10f102453a1afa9edbf8cf8a251890de
+  glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  React: 36d0768f9e93be2473b37e7fa64f92c1d5341eef
+  yoga: 684513b14b03201579ba3cee20218c9d1298b0cc
+
+PODFILE CHECKSUM: 7009e5ea9d911677b8aa8cf73091a3210dd120d6
+
+COCOAPODS: 1.11.2

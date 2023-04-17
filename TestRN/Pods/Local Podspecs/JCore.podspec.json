@@ -1,0 +1,23 @@
+{
+  "name": "JCore",
+  "version": "1.7.5",
+  "homepage": "https://github.com/jpush/jcore-react-native",
+  "summary": "React Native JCore component for Android and iOS",
+  "license": "ISC",
+  "authors": "wicked.tc130",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/jpush/jcore-react-native.git",
+    "tag": "1.7.5"
+  },
+  "source_files": "ios/RCTJCoreModule/*.{h,m}",
+  "preserve_paths": "**/*.js",
+  "vendored_libraries": "ios/RCTJCoreModule/*.a",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

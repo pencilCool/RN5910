@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-TestRN/Pods-TestRN-resources.sh
+${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle
+${PODS_ROOT}/RSKImageCropper/RSKImageCropper/RSKImageCropperStrings.bundle

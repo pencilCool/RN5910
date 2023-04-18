@@ -11,3 +11,29 @@
 ### bug fix in RCTCxxBridge
 
 ![image](./img/RCTCxxBridge.png)
+
+# integration with pod 
+```
+  pod 'Folly', :git => 'https://github.com/pencilCool/RN5910.git'
+  pod 'yoga',  :git=> 'https://github.com/pencilCool/RN5910.git'
+  pod 'React', :git => 'https://github.com/pencilCool/RN5910.git',:subspecs => [
+   'Core',
+   'ART',
+   'CxxBridge', 
+   'DevSupport', 
+   'RCTNetwork',
+   'RCTText',
+   'RCTWebSocket', 
+   'RCTAnimation', 
+   'RCTGeolocation', 
+   'RCTImage',
+   'RCTBlob',
+   'RCTActionSheet',
+   'RCTSettings',
+   'RCTVibration',
+   'RCTPushNotification',
+   'RCTLinkingIOS',
+   'RCTCameraRoll'
+   ]
+
+```

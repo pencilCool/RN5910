@@ -1,6 +1,6 @@
 # Bug fix for react native 0.59.10
 
-### bug fix for xcoe14.3
+### bug fix for xcode14.3
 
 ![image](./img/xcode14_3bug.png)
 
